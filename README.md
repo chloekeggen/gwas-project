@@ -33,7 +33,7 @@ gwas.phen: Phenotype file with normalized LDL values.
 gwas.vcf.gz: VCF f##ile containing LD-pruned SNPs.
 gwas.vcf.gz.tbi: Index file for the VCF file.
 
-##Data Import and Management
+## Data Import and Management
 ### Functions
 read_geno_vcf(file_path): Reads VCF file and returns genotype data as a pandas DataFrame.
 read_pheno_file(file_path): Reads phenotype data from a CSV file and returns it as a pandas DataFrame.
@@ -54,7 +54,7 @@ manhattan_plot(results): Generates a Manhattan plot to visualize GWAS results.
 qq_plot(results): Generates a Q-Q plot to depict the distribution of p-values.
 
 
-###Running the Analysis
+### Running the Analysis
 Load Phenotype Data: Use read_pheno_file to load phenotype data.
 Load Genotype Data: Use read_geno_vcf to load genotype data from the VCF file.
 Quality Control:
