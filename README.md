@@ -22,10 +22,9 @@ Ensure you have the following software installed:
 
 ### Install Required Python Packages
 
-Install the required Python packages using pip:
-
-```bash
+Install the required Python packages using pip: ```bash
 pip install pandas numpy matplotlib cyvcf2 scipy
+
 
 ## Data Files
 Place the following data files in the project directory:
