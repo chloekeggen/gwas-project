@@ -1,4 +1,4 @@
-# gwas-project
+# GWAS-project 
 # Genome-Wide Association Study (GWAS) Pipeline
 
 This project implements a pipeline to perform a Genome-Wide Association Study (GWAS) using Python. The pipeline includes steps for data loading, quality control, Hardy-Weinberg Equilibrium (HWE) testing, filtering, statistical testing, and result visualization.
