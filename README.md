@@ -10,7 +10,7 @@ The pipeline performs the following tasks:
 2. Quality Control
 3. Association Testing
 4. Result Visualization
-5. Multiple Testing Correction
+
 
 ## Setup Instructions
 
@@ -29,9 +29,9 @@ pip install pandas numpy matplotlib cyvcf2 scipy
 ## Data Files
 Place the following data files in the project directory:
 
-lab3_gwas.phen: Phenotype file with normalized LDL values.
-lab3_gwas.vcf.gz: VCF f##ile containing LD-pruned SNPs.
-lab3_gwas.vcf.gz.tbi: Index file for the VCF file.
+gwas.phen: Phenotype file with normalized LDL values.
+gwas.vcf.gz: VCF f##ile containing LD-pruned SNPs.
+gwas.vcf.gz.tbi: Index file for the VCF file.
 
 ##Data Import and Management
 ### Functions
