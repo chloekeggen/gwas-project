@@ -41,7 +41,6 @@ read_pheno_file(file_path): Reads phenotype data from a CSV file and returns it 
 ## Quality Control
 ### Functions
 filter_snps(genotype_df, maf_threshold, missingness_threshold): Filters SNPs based on minor allele frequency (MAF) and missingness thresholds.
-filter_indivs(genotype_df, missingness_threshold): Filters individuals based on a missingness threshold.
 filter_hwe(genotype_df, hwe_threshold=1e-6): Filters SNPs based on Hardy-Weinberg Equilibrium (HWE) p-values.
 
 ## Association Testing
