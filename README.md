@@ -12,7 +12,12 @@ cd gwas-project
 pip install cyvcf2
 python setup.py install
 ```
-
+Else, you may download and run Full Gwas Implementation.py. You will be asked to provide file paths for phenotype and genotype file, as well as for output Manhattan plot
+#### Example Input Format
+    Enter the path to the phenotype file: ~/public/lab3/lab3_gwas.phen
+    Enter the path to the genotype file: ~/public/lab3/lab3_gwas.vcf.gz
+    Enter the path for saving the Manhattan plot: ~/manhattan_plot.png
+    
 ## Usage
 
 After installing the package, you can use gwas-tools-cli.py to perform GWAS on your data.
@@ -23,7 +28,7 @@ gwas-tools-cli --vcf <path_to_vcf_file> --pheno <path_to_phenotype_file> --out <
 
 Replace <path_to_vcf_file> with the path to your VCF file containing genotype data, <path_to_phenotype_file> with the path to your phenotype file, and <output_file_prefix> with the desired name for the output files.
 
-### Optional arguments
+#### Optional arguments
 
 ```
 --maf <maf_threshold>
