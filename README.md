@@ -4,11 +4,12 @@ This package provides a simple tool for performing Genome-Wide Association Studi
 
 ## Installation
 
-To install the package, access via GitHub link:
+To install the package, access via GitHub link and install cyvcf2 prior to installing package:
 
 ```
 git clone https://github.com/chloekeggen/gwas-project.git
 cd gwas-project
+pip install cyvcf2
 python setup.py install
 ```
 
