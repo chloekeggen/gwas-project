@@ -57,7 +57,7 @@ def filter_indivs(genotype_df, missingness_proportion = 0.05):
 # Main function to perform GWAS data preprocessing
 def preprocess_gwas_data(phenotype_file, genotype_file):
     phenotype_data = read_phenotype_data(phenotype_file)
-    chromosomes = [str(i) for i in range(1, 3)]
+    chromosomes = [str(i) for i in range(1, 23)]
     genotype_data, chrom_dict, pos_dict = read_genotype_data(genotype_file, chromosomes=chromosomes)
     
     # Perform QC
