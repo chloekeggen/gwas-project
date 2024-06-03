@@ -37,13 +37,13 @@ Adjust MAF threshold for filtering SNPs as needed; the default is 0.05.
 - <output_file_prefix>_manhattan_plot.png: Manhattan plot visualizing the results of the GWAS analysis.
 - <output_file_prefix>_QQ_plot.png: QQ plot visualizing the results of the GWAS analysis.
 
-## Example using given phenotype and genotype files
+## Example using given smaller phenotype and genotype files
 
 ```
 gwas-tools-cli --vcf https://github.com/chloekeggen/gwas-project/raw/main/test_files/subset_lab3_gwas_CHR_18_19_20.vcf.gz --pheno https://github.com/chloekeggen/gwas-project/raw/main/test_files/subset_lab3_gwas_CHR_18_19_20.phen --out gwas_results
 ```
 
-This command will perform GWAS on the provided genotype and phenotype data files from Lab 3, and save the results into 2 gwas_results files.
+This command will perform GWAS on the subsections of genotype and phenotype data files from Lab 3 (ie: data from chromosomes 18, 19, 20), and save the results into 3 gwas_results files.
 
 ## Dependencies
 - pandas
