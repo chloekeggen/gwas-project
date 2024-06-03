@@ -4,20 +4,15 @@ This package provides a simple tool for performing Genome-Wide Association Studi
 
 ## Installation
 
-To install the package, access via GitHub link and install cyvcf2 prior to installing package:
+To install the package, access via GitHub link and install pyvcf prior to installing package:
 
 ```
 git clone https://github.com/chloekeggen/gwas-project.git
 cd gwas-project
-pip install cyvcf2
+conda install -c bioconda pyvcf
 python setup.py install
 ```
-Else, you may download and run Full_Gwas_Implementation.py. You will be asked to provide file paths for phenotype and genotype file, as well as for output Manhattan plot
-#### Example Input Format
-    Enter the path to the phenotype file: ~/public/lab3/lab3_gwas.phen
-    Enter the path to the genotype file: ~/public/lab3/lab3_gwas.vcf.gz
-    Enter the path for saving the Manhattan plot: ~/manhattan_plot.png
-    
+ 
 ## Usage
 
 After installing the package, you can use gwas-tools-cli.py to perform GWAS on your data.
@@ -38,13 +33,14 @@ Adjust MAF threshold for filtering SNPs as needed; the default is 0.05.
 
 ## Output
 
-- <output_file_prefix>_results.csv: CSV file containing the results of the linear regression analysis, including SNP IDs, chromosome, position, and p-values.
+- <output_file_prefix>_results.csv: CSV file containing the results of the linear regression analysis.
 - <output_file_prefix>_manhattan_plot.png: Manhattan plot visualizing the results of the GWAS analysis.
+- <output_file_prefix>_QQ_plot.png: QQ plot visualizing the results of the GWAS analysis.
 
 ## Example using given phenotype and genotype files
 
 ```
-gwas-tools-cli --vcf https://github.com/chloekeggen/gwas-project/raw/main/lab3_gwas.vcf.gz --pheno https://github.com/chloekeggen/gwas-project/raw/main/lab3_gwas.phen --out gwas_results
+gwas-tools-cli --vcf https://github.com/chloekeggen/gwas-project/raw/main/test_files/subset_lab3_gwas_CHR_18_19_20.vcf.gz --pheno https://github.com/chloekeggen/gwas-project/raw/main/test_files/subset_lab3_gwas_CHR_18_19_20.phen --out gwas_results
 ```
 
 This command will perform GWAS on the provided genotype and phenotype data files from Lab 3, and save the results into 2 gwas_results files.
@@ -52,7 +48,6 @@ This command will perform GWAS on the provided genotype and phenotype data files
 ## Dependencies
 - pandas
 - numpy
-- cyvcf2
-- scikit-learn
+- PyVCF
 - statsmodels
 - matplotlib
