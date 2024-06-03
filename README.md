@@ -4,12 +4,12 @@ This package provides a simple tool for performing Genome-Wide Association Studi
 
 ## Installation
 
-To install the package, access via GitHub link and install pyvcf prior to installing package. Make sure you have up-to-date Conda installed on your system:
+To install the package, access via GitHub link and install pyvcf3 prior to installing package. Make sure you have up-to-date Conda installed on your system:
 
 ```
 git clone https://github.com/chloekeggen/gwas-project.git
 cd gwas-project
-conda install -c bioconda pyvcf
+conda install -c bioconda pyvcf3
 python setup.py install
 ```
  
