@@ -13,7 +13,7 @@ setup(
         'numpy',
         'matplotlib',
         'statsmodels',
-        'PyVCF'
+        'PyVCF3'
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
