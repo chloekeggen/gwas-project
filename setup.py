@@ -10,7 +10,7 @@ setup(
     packages=find_packages(),
     install_requires=[
     'pandas~=2.0.1',
-    'numpy~=1.24.1',
+    'numpy~=1.20.0',
     'matplotlib~=3.7.1',
     'statsmodels~=0.14.0',
     'pyvcf3~=1.0.0'
