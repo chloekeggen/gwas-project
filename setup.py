@@ -9,11 +9,11 @@ setup(
     description='Simple GWAS on continuous phenotypes performing association analysis via linear regression',
     packages=find_packages(),
     install_requires=[
-        'pandas',
-        'numpy',
-        'matplotlib',
-        'statsmodels',
-        'PyVCF3'
+    'pandas~=2.0.1',
+    'numpy~=1.24.1',
+    'matplotlib~=3.7.1',
+    'statsmodels~=0.14.0',
+    'PyVCF3~=0.6.8'
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
