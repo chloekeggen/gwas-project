@@ -27,9 +27,11 @@ Replace <path_to_vcf_file> with the path to your VCF file containing genotype da
 
 ```
 --maf <maf_threshold>
+--h OR --help
 ```
 
 Adjust MAF threshold for filtering SNPs as needed; the default is 0.05.
+Use --help for a list of valid arguments that can be used
 
 ## Output
 
@@ -48,6 +50,6 @@ This command will perform GWAS on the subsections of genotype and phenotype data
 ## Dependencies
 - pandas
 - numpy
-- PyVCF
+- pyvcf3
 - statsmodels
 - matplotlib
