@@ -8,7 +8,7 @@ To install the package, access via GitHub repository link.
 ```
 git clone https://github.com/chloekeggen/gwas-project.git
 ```
-It is recommended to download Anaconda and run package within Anaconda terminal in order to ensure dependencies and paths are maintained correctly. Then, continue with the following steps.
+It is recommended to download Anaconda and run package within Anaconda terminal. Also, in order to ensure dependencies and paths are maintained correctly, it is recommended to create a new Anaconda environment. Then, continue with the following steps.
 ```
 cd gwas-project
 pip install -r requirements.txt
