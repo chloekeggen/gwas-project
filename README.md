@@ -4,15 +4,17 @@ This package provides a simple tool for performing Genome-Wide Association Studi
 
 ## Installation
 
-To install the package, access via GitHub link:
-
+To install the package, access via GitHub repository link.
 ```
 git clone https://github.com/chloekeggen/gwas-project.git
+```
+It is recommended to download Anaconda and run package within Anaconda terminal in order to ensure dependencies and paths are maintained correctly. Then, continue with the following steps.
+```
 cd gwas-project
 pip install -r requirements.txt
 python setup.py install
 ```
- 
+
 ## Usage
 
 After installing the package, you can use gwas-tools-cli.py to perform GWAS on your data.
